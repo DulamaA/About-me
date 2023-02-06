@@ -110,3 +110,15 @@ img {
 .launch-link:hover {
   color: blue;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+}
